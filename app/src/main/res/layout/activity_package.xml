@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PackageActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_f"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/f" />
+
+                <ImageView
+                    android:id="@+id/img_c"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/c" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img_i"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/i" />
+
+                    <ImageView
+                        android:id="@+id/img_n"
+                        android:layout_width="45dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="365dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/n" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="---여행패키지"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_v"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="215dp"
+                    android:src="@drawable/v" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      2022-08-02~2022-08-06" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="여행 위치 정보"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="275dp"
+                    android:text="가격:nnn원 예상"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/img_bar"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bar" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_h"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/h" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="OOO가이드" />
+
+                <ImageView
+                    android:id="@+id/img_t"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="230dp"
+                    android:src="@drawable/t" />
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bar" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/img_z"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginRight="22dp"
+                        android:text="우리의 설레는 천지는 꽃 두손을 돋고, 위하여서. 천하를 고행을 인생에 뿐이다. 찾아 않는 기쁘며, 전인 이상의 것은 만천하의 이상 말이다. 간에 우리는 이는 끓는 청춘의 것이다. 생명을 동력은 찾아 못할 일월과 목숨이 듣는다. 보배를 만물은 있으며, 방황하여도, 황금시대다. 미인을 주는 원대하고, 봄날의 칼이다. 인류의 스며들어 가치를 사막이다. 예가 이상의 무엇을 인생을 있을 봄바람이다. 위하여 소리다.이것은 위하여서 같은 피에 그들은 실현에 그리하였는가?" />
+
+
+                    <ImageView
+                        android:id="@+id/img_q"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="450dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/q" />
+
+                    <ImageView
+                        android:id="@+id/img_r"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="450dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/r" />
+
+                    <ImageView
+                        android:id="@+id/img_s"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="290dp"
+                        android:layout_marginTop="450dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/s" />
+
+
+                    <ImageView
+                        android:id="@+id/img_u"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="600dp"
+                        android:src="@drawable/u" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+         android:id="@+id/img_j"
+         android:layout_width="92dp"
+         android:layout_height="32dp"
+         android:layout_gravity="bottom"
+         android:layout_marginRight="16dp"
+         android:layout_marginBottom="60dp"
+         android:src="@drawable/j"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/img_j"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottombar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
